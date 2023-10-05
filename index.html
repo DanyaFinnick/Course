@@ -6,11 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lagoona</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/syile.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container header-container">
       <h1 hidden>Сеть отелей лагуна</h1>
       <a href="" class="logo">
         <img src="/img/logo.svg" alt="Kjuj">
@@ -19,12 +21,14 @@
         <a href="tel:+74953225448" class="header-phone">+7 495 322-54-48</a>
       </div>
       <div class="personal-account">
-        <a href="" class="personal-account-link">Личный кабинет</a>
+        <a href="/index-test.html" class="personal-account-link">Личный кабинет</a>
       </div>
+    </div>
+    <div class="container nav-container">
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-link">
-            <a href="">О нас</a>
+            <a href="">О нас подробно </a>
           </li>
           <li class="nav-link">
             <a href="">Услуг</a>
@@ -41,50 +45,50 @@
           <li class="nav-link">
             <a href="">Контакты</a>
           </li>
-          <li class="btn-tour">
-            <a href="" class="btn-tour-link">Хочу тур</a>
-          </li>
-          <li class="btn-call">
-            <a href="" class="btn-сall-link">Обратный звонок</a>
-          </li>
         </ul>
       </nav>
+      <a href="" class="btn header-tour-btn">
+        Хочу тур
+      </a>
+      <a href="" class="btn header-call-btn">
+        Обратный звонок
+      </a>
     </div>
   </header>
 
   <main>
     <section class="specoffers">
-      <div class="container">
-        <h2 class="h2">
+      <div class="container specoffers-container">
+        <h2 class="section-heading">
           Спецпредложения
         </h2>
         <ul class="specoffers-list">
-          <li class="specoffers-left">
-            <strong class="specoffers-left-heading">
+          <li class="specoffers-item">
+            <strong class="specoffers-item-heading">
               Мальдивские острова
             </strong>
-            <div class="specoffers-left-price">
+            <div class="specoffers-item-price">
               от 55 000₽
+              <a href="" class="specoffers-more-details">Подробнее</a>
             </div>
-            <a href="" class="specoffers-more-details">Подробнее</a>
           </li>
-          <li class="specoffers-left">
-            <strong class="specoffers-left-heading">
-              Горящий тур на остров Крит
-            </strong>
-            <div class="specoffers-left-price">
-              от 30 000₽
-            </div>
-            <a href="" class="specoffers-more-details">Подробнее</a>
-          </li>
-          <li class="specoffers-right">
-            <strong class="specoffers-right-heading">
+          <li class="specoffers-item">
+            <strong class="specoffers-item-heading">
               Номера категории люкс
             </strong>
-            <div class="specoffers-right-price">
+            <div class="specoffers-item-price">
               от 5 000₽
+              <a href="" class="specoffers-more-details">Подробнее</a>
             </div>
-            <a href="" class="specoffers-more-details">Подробнее</a>
+          </li>
+          <li class="specoffers-item">
+            <strong class="specoffers-item-heading">
+              Горящий тур на остров Крит
+            </strong>
+            <div class="specoffers-item-price">
+              от 30 000₽
+              <a href="" class="specoffers-more-details">Подробнее</a>
+            </div>
           </li>
         </ul>
       </div>
@@ -102,8 +106,8 @@
     </section>
 
     <section class="services">
-      <div class="container">
-        <h2 class="h2">
+      <div class="container services-container">
+        <h2 class="h2 section-heading ">
           Услуги
         </h2>
         <ul class="services-list">
@@ -148,7 +152,7 @@
     </section>
 
     <section class="advantages">
-      <div class="container">
+      <div class="container advantages-container">
         <h2 class="h2">
           Приемущества
         </h2>
@@ -182,7 +186,7 @@
     </section>
 
     <section class="accommodation">
-      <div class="container">
+      <div class="container accommodation-container">
         <h2 class="h2">
           Размещение
         </h2>
@@ -347,7 +351,7 @@
               <div class="accommodation-btn">Номера</div>
             </div>
           </li>
-          <li class="accommodation-item-last">
+          <li class="accommodation-item">
             <a href="" class="accommodation-iten-link">Посмотреть все страницы</a>
           </li>
         </ul>

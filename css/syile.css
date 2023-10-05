@@ -1,2 +1,181 @@
+*{
+    block-size: border-box;
+}
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
   
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn {
+    /* padding: 13px 20px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: normal;
+    color: #C93;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px; */
+    border: 1px solid;
+}
+
+/* header */
+header {
+    height: 154px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.personal-account {
+    margin-left: auto;
+}
+
+.nav-container {
+    display: flex;
+    margin-top: 30px;
+} 
+
+.nav-list {
+    display: flex;
+}
+
+.nav-link:not(:last-child) {
+    margin-right: 45px;
+}
+
+.header-tour-btn {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.header-call-btn {
+    margin-right: 45px;
+}
+
+/* specoffers */
+.specoffers-container {
+    padding-top: 10;
+    padding-bottom: 10px;
+}
+
+.section-heading {
+    margin-bottom: 20px;
+}
+
+.specoffers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.specoffers-item {
+    width: 575px;
+    margin-bottom: 24px;
+}
+
+.specoffers-item-price {
+    margin-top: 15px;
+}
+
+/* about us */
+/* services */
+
+.services-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-heading {
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-list-item {
+    width: 575px;
+    margin-bottom: 24px;
+}
+
+.services-item-price {
+    margin-top: 15px;
+}
+
+/* adventages */
+.advantages-container{
+    padding-bottom: 10px
+}
+
+.section-heading {
+    margin-bottom: 20px;
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advantages-item {
+    width: 276px;
+    margin-bottom: 24px;
+}
+
+/* adventages */
+.accommodation-container{
+    padding-bottom: 10px
+}
+
+.section-heading {
+    margin-bottom: 20px;
+}
+
+.accommodation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accommodation-item {
+    width: 374px;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
